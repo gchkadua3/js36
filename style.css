@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Questrial&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.flex-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.center-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.center-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101913;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-nav a:first-child  {
+
+    font-size: 16px;
+    font-weight: 500;
+    color:  #101913;
+    text-decoration: none;
+}
+
+.right-nav a:last-child  {
+    padding: 12px 18px 12px 18px;
+    border-radius: 8px;
+    background: #3C9379;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;  
+}
+
+.center-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content h1, .left-content span {
+    font-size: 54px;
+    font-weight: 700;
+    color: #101913;
+}
+.left-content span {
+    color: #3C9379;
+}
+
+.left-content p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    color: #535A56;
+    margin-top: 20px;
+}
+.left-content button {
+    padding: 16px 22px 16px 22px;
+    border-radius: 8px;
+    background: #3C9379;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.center-content img {
+    width: 746px;
+    height: 500px;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.img-brands {
+    margin-top: 40px;
+}
+
+.categories {
+    margin-top: 100px;
+}
+
+
+.categories h1 {  
+    font-size: 32px;
+    font-weight: 700;
+    color: #101913;
+}
+
+.categories img {
+    margin-top: 25px;
+}
+
+.whyChoose {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #101913;
+    margin-top: 50px;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+
+.card img {
+    width: 280px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 20px;
+}
