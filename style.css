@@ -156,3 +156,46 @@
 .description {
     margin-top: 20px;
 }
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footerLogo p {
+    color: #535A56;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-info h1 {
+    color: #101913;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-desc p {
+    color: #535A56;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 0px;
+}
+
+.textcent {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #535A56;
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+}
